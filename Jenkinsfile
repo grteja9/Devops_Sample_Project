@@ -13,7 +13,7 @@ pipeline{
                 sh ...
                   mvn -v 
                   mvn clean package
-                  mv target/*.war target/ravi.war
+                  mv target ravi.war
                 ...
                }
             }
