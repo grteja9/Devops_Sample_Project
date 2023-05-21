@@ -13,6 +13,9 @@ pipeline{
                 sh '''
                 mvn -v
                 mvn clean package
+                mvn compile
+                mvn test
+                mvn package
                   '''
                 }
             
