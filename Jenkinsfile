@@ -1,5 +1,5 @@
 pipeline{
-   agent any{
+   agent any
     stages{
           stage('Git clone'){
                steps{
@@ -7,5 +7,5 @@ pipeline{
                }
             }
         }
-    }
+    
 }
