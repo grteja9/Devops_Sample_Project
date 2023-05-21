@@ -12,8 +12,7 @@ pipeline{
                steps{
                 
                   mvn -v 
-                  mvn clean package
-                  mv target ravi.war
+                  
             
                }
             }
