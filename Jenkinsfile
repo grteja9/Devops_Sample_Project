@@ -10,11 +10,11 @@ pipeline{
     stages{
           stage('Maven build and copy war to target'){
                steps{
-                sh ...
+                
                   mvn -v 
                   mvn clean package
                   mv target ravi.war
-                ...
+            
                }
             }
         }
