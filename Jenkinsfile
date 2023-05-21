@@ -7,7 +7,7 @@ pipeline{
                }
             }
         }
-    stages{
+    
           stage('Maven build and copy war to target'){
                steps{
                 
@@ -15,7 +15,7 @@ pipeline{
                   
             
                }
-            }
+            
         }
 
 
