@@ -10,7 +10,10 @@ pipeline{
     
           stage('Maven build and copy war to target'){
                steps{
-                sh 'mvn -v' 
+                sh '''
+                mvn -v
+                mvn clean package
+                  '''
                 }
             
             }
