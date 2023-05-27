@@ -9,6 +9,11 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <artifactId>my-application1</artifactId>  
   <version>1.0</version>  
   <packaging>jar</packaging>  
+
+  <groupId>com.Devops.sample.project</groupId>  
+  <artifactId><my-application2></artifactId>  
+  <version>2.0</version>  
+  <packaging>war</packaging>
   
   <name>Maven Quick Start Archetype</name>  
   <url>http://maven.apache.org</url>  
