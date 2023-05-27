@@ -14,8 +14,7 @@ pipeline{
                 mvn -v
                 mvn clean package
                 mvn package
-                mv target target.${BUILDTIMESTAMP}
-                mv target /opt/Workspace/Devops_Sample_Project/
+                cp target /opt/Workspace/Devops_Sample_Project
                   '''
                 }
             
