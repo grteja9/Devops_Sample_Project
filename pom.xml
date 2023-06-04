@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion> 
 
-  <groupId>com.kctechnologies</groupId>
+  <groupId>com.jobsestate</groupId>
   <artifactId>maven-web-project</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
@@ -13,7 +13,7 @@
 	    <spring.version>4.1.4.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-	 	<sonar.host.url>http://localhost:9001/</sonar.host.url>
+	 	<sonar.host.url>http://localhost:9000/</sonar.host.url>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -26,15 +26,15 @@
   </properties>
 
     <scm>
-        <connection>scm:git:https://github.com/KCTechnologies/Maven-Web-Project</connection>
-        <developerConnection>scm:git:https://github.com/KCTechnologies/Maven-Web-Project</developerConnection>
+        <connection>scm:git:https://github.com/grteja9/Devops_Sample_Project.git</connection>
+        <developerConnection>scm:git:https://github.com/grteja9/Devops_Sample_Project.git</developerConnection>
         <tag>HEAD</tag>
-        <url>https://github.com/KCTechnologies/Maven-Web-Project</url>
+        <url>https://github.com/grteja9/Devops_Sample_Project</url>
     </scm>
 	
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/KCTechnologies/Maven-Web-Project/issues</url>
+        <url>https://github.com/grteja9/Devops_Sample_Project/issues</url>
     </issueManagement>
 	
 	
